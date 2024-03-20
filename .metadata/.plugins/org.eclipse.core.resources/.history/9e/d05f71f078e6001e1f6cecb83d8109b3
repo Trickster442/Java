@@ -1,0 +1,14 @@
+package com.lab2;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String homeTown = "West Philadelphia";
+		String place = "On the playground";
+		String activity = "shootin' some b-ball";
+		
+		System.out.println("In", homeTown , "born and raised");
+	}
+
+}
