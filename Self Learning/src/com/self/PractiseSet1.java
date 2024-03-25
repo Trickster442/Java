@@ -28,7 +28,7 @@ public class PractiseSet1 {
 		Scanner sc_ob = new Scanner(System.in);
 		String name = sc_ob.next();
 		System.out.println("Hello, " + name + " have a good day");
-		 
+		
 		
 
 	}
