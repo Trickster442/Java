@@ -12,6 +12,7 @@ public class Input {
 		System.out.println("Enter number 1");
 		int a = sc_obj.nextInt();
 		boolean z = sc_obj.hasNextInt(a);
+		//hasNextInt method of scanner can be used to check whether value was inserted
 		System.out.println(z);
 		//for integer we use nextInt you can use various other method for various data types
 		System.out.println("Enter number 2");
