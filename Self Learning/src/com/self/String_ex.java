@@ -23,5 +23,27 @@ public class String_ex {
 		char z = 'Z' ;
 		
 		System.out.printf("You can use format specificier for float %f for double %d for string %s for char %c ", a, b, caste, z);
+		
+		
+		//System.out.format() use in Java
+		//It works in the same way as system.out.printf() ;
+		//next only print first word and nextLine prints the whole line
+		
+		
+		//String Methods
+		String new_name = "Sandip";
+		double value = new_name.length();
+		System.out.println(value);
+		
+		String uCase = new_name.toUpperCase();
+		System.out.println(uCase);
+		
+		String trimmed = new_name.trim();  //removes all the spaces
+		System.out.println(trimmed);
+		
+		String subStr = new_name.substring(3);
+		System.out.println(subStr);
+		
+				
 	}
 }
