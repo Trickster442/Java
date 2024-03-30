@@ -15,6 +15,8 @@ public class Switch_Case {
 		 * case c2: 
 		 * code 
 		 * break 
+		 * default:
+		 * code 
 		 * }
 		 */
 		int age ;
