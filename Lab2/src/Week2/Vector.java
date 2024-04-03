@@ -40,7 +40,8 @@ public class Vector {
 			System.out.println("vector x :" + this.x);
 			System.out.println("vector y :" + this.y);
 			System.out.println("vector length :" + this.length());
-			
 		}
+		
+		
 
 }
