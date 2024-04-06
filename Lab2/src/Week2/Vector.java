@@ -42,6 +42,13 @@ public class Vector {
 			System.out.println("vector length :" + this.length());
 		}
 		
+		double getX() {
+			return this.x;
+		}
+		 double getY() {
+			 return this.y;
+		 }
+		
 		
 
 }

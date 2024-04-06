@@ -9,6 +9,13 @@ public class ShapeMain {
 		Vector v = v1.add(v2) ;
 		System.out.println(v);
 		
+		
+		Vector v3 = new Vector(1,3);
+		Vector v4 = new Vector(4,5);
+		Rectangle rect = new Rectangle(v3, v4);
+		rect.printRectangle();
+		
+		
 	}
 
 }
