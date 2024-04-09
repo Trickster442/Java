@@ -34,9 +34,7 @@ public class Switch_Case {
 				break ;
 			default:
 				System.out.println("Enjoy your life !!!");
-		}
-		
-		
+		}	
 	}
 
 }
