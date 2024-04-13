@@ -19,7 +19,7 @@ public class varArgs {
 		// rather you will create a function with varArgs 
 		// which will add all the args passed 
 		
-		System.out.println("The sum of number are :" + sum(4,5,6,7,8,9));
+		System.out.println("The sum of numbers are :" + sum(4,5,6,7,8,9));
 		
 	}
 
