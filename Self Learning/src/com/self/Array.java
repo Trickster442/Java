@@ -9,6 +9,8 @@ public class Array {
 		String[] days = new String [] {"Monday", "Tuesday", "Wednesday"};
 		System.out.println(Arrays.toString(days));
 		System.out.println(days.length);
+		Arrays.fill(days, "Thursday");   //changes all values to given
+		System.out.println(Arrays.toString(days));
 	}
 }
 
