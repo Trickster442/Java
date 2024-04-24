@@ -9,19 +9,19 @@ public class Rectangle {
 		this.v2 = v2 ;
 	}
 	
-	double width() {
+	double getWidth() {
 		return v2.getX() - v1.getX();
 	}
 	
-	double height() {
+	double getHeight() {
 		return v2.getY() - v1.getY();
 	}
 	
 	double area() {
-		return this.width() * this.height();
+		return this.getWidth() * this.getHeight();
 	}
 	
-	Vector center() {
+	Vector getCenter() {
 		return v1.add(v2).scale(0.5);
 	}
 	
@@ -32,6 +32,12 @@ public class Rectangle {
 		System.out.print("vector v2 :");
 		v2.print_vector();
 	}
+	
+	Boolean contains(Vector point) {
+        return (point.getX() >= v1.getX() && point.getX() <= v2.getX() &&
+                point.getY() >= v1.getY() && point.getY() <= v2.getY());
+    }
+	
 	
 	
 }
