@@ -30,4 +30,9 @@ public class Circle {
 		Vector p2 = new Vector(cx + this.radius, cy + this.radius);
 		return new Rectangle(p1,p2);
 	}
+	@Override
+	public String toString() {
+		return "Circle [radius=" + radius + ", center=" + center + "]" ;
+	}
+	
 }

@@ -1,7 +1,6 @@
 package Week2;
 
 public class Vector {
-		// TODO Auto-generated method stub
 		double x ; 
 		double y ;
 		
