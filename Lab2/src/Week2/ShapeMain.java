@@ -47,13 +47,12 @@ public class ShapeMain {
 		Vector v2 = new Vector(3,4);
 		v1.print_vector();
 		System.out.println(v1);
-		System.out.println(v1.add(v2));
-		System.out.println(v1.subtract(v2));
+		System.out.println("Addition = " + v1.add(v2));
+		System.out.println("Subtraction = " + v1.subtract(v2));
 		System.out.println(v1.length());
 		System.out.println(v1.getX());
 		System.out.println(v1.getY());
 		System.out.println(v1.scale(2));
-		
 		System.out.println();
 		System.out.println();
 		System.out.println("---Circle---");
@@ -66,6 +65,22 @@ public class ShapeMain {
 		Vector check = new Vector(5,5);
 		System.out.println(c1.contains(check));
 		System.out.println(c1.bounding_box());
+		System.out.println();
+		System.out.println();
+		System.out.println("---Rectangle---");
+		Vector v4 = new Vector(7,9);
+		Vector v5 = new Vector(3,5);
+		Rectangle rec1 = new Rectangle(v5,v4);
+		System.out.println(rec1);
+		System.out.println(rec1.getHeight());
+		System.out.println(rec1.getWidth());
+		System.out.println(rec1.area());
+		System.out.println(rec1.getCenter());
+		System.out.println(rec1.contains(v1));
+		rec1.printRectangle();
+		
+		
+		
 		
 	}
 }
