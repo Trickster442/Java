@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="java.util.InvalidPropertiesFormatException"/>
     <fullyQualifiedTypeName name="java.awt.Rectangle"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="AttendanceRegister"/>
 </qualifiedTypeNameHistroy>

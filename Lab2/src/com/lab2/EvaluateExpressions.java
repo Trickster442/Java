@@ -1,17 +1,15 @@
-package com.study;
+package com.lab2;
 
-public class HelloWorld {
-
+public class EvaluateExpressions {
 	public static void main(String[] args) {
+//		int num1 = 5 ;
+//		int num2 = 10 ;
+//		int sum = num1 + num2 ;
+//		System.out.println(sum);
+//		System.out.println("Hellow");
+//		System.out.println();
 		
-		int num1 = 5 ;
-		int num2 = 10 ;
-		int sum = num1 + num2 ;
-		System.out.println(sum);
-		System.out.println("Hellow");
-		System.out.println();
-		
-		System.out.println("Arithmetic Operator");
+		System.out.println("Arithmetic Operations");
 		System.out.println(1+1);
 		System.out.println(5-2*3);
 		System.out.println((5-2)*3);
@@ -22,11 +20,6 @@ public class HelloWorld {
 		System.out.println(7.0/2.0);
 		System.out.println(8%2);
 		System.out.println(9%2);
-		System.out.println();
-		
-		HelloWorld z = new HelloWorld() ;  //creating object for class
-		z.calculate(6, 7);   //accessing calculate method of class 
-		System.out.println(z.calculate(6, 7));
 		System.out.println();
 		
 		
@@ -53,7 +46,6 @@ public class HelloWorld {
 		System.out.println("ABCDEFG".charAt(3));
 		System.out.println("MMXVIII".toLowerCase());
 		System.out.println("Yellow Submarine".startsWith("Yellow"));
-		
 		System.out.println();
 		
 		System.out.println("Type Conversion");
@@ -77,17 +69,24 @@ public class HelloWorld {
 		
 		
 		//creating variables
+		System.out.println("--Variables--");
+		double pi = 3.14159;
+		char letter = 's';
+		String name = "Ada	Lovelace";
+		
 		int age = 19 ;
 		char grade = 'A';
 		double gigaWatts = 1.21;
 		Boolean isBlue = true;
 		String phoneNumber = "555-1234";
+		System.out.println(pi);
+		System.out.println(letter);
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(grade);
+		System.out.println(gigaWatts);
+		System.out.println(isBlue);
+		System.out.println(phoneNumber);
 
 	}
-	
-	public int calculate(int a , int b) {
-		int c = a + b ;
-		return c;
-	}
-
 }
