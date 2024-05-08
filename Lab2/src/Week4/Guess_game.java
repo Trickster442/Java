@@ -1,56 +1,60 @@
 package Week4;
 import java.util.Scanner;
-import java.util.Random;
 public class Guess_game {
-//	public static void main(String [] args) {
-//		for(int remaining = 10 ; remaining > 0 ; remaining--) {
-//			Random correct = new Random();
-//			int correct_num = correct.nextInt(10);
-//			Scanner input = new Scanner(System.in);
-//			System.out.print("The number you entered is : ");
-//			int num = input.nextInt();
-//			if (num != correct_num) {
-//				System.out.println("Guess again");
-//				System.out.printf("Number of guess remaining %d", --remaining);
-//				System.out.println();
-//				continue;
-//			}
-//			else if(num == correct_num){
-//				System.out.println("Correct guess");
-//				
-//				break ;
-//			}
-//			else {
-//				System.out.println("Finished");
-//			}
-//		
-//		}
-//		
-//	}
-	int remaining;
-	Random correct = new Random();
-	final int correct_num = correct.nextInt(101);
-	
-	void guess(){
-		System.out.println("Select any number from 0 to 100");
-		for(remaining = 10 ; remaining > 0 ; remaining--) {
-		System.out.printf("\t Number of guess remaining %d \n", remaining);
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter a number: ");
-		int num = input.nextInt();
-		if (num < correct_num) {
-			System.out.println("Low");
-		}
-		else if(num > correct_num){
-			System.out.println("High");
-		}
-		else {
-			System.out.println("You won");
-			break;
-		}
-	}
-	if (remaining == 0) {
-           System.out.println("You lost. The correct number was: " + correct_num);
-    }	
-}
+    private int targetNumber;
+    private int guessRemaining;
+    private boolean gameOver;
+    private boolean gameWon;
+    public Guess_game() {
+        targetNumber = (int) (Math.random() * 100) + 1;
+        guessRemaining = 10;
+        gameOver = false;
+        gameWon = false;
+    }
+    public int getGuessRemaining() {
+        return guessRemaining;
+    }
+    public boolean isGameOver() {
+        return gameOver;
+    }
+    public boolean isGameWon() {
+        return gameWon;
+    }
+    public void makeGuess(int guess) {
+        if (!gameOver) {
+            guessRemaining--;
+            if (guess == targetNumber) {
+                gameOver = true;
+                gameWon = true;
+                System.out.println("Congratulations! You guessed the number.");
+            } else if (guessRemaining == 0) {
+                gameOver = true;
+                System.out.println("Game over! You've run out of guesses. The correct number was: " + targetNumber);
+            } else if (guess < targetNumber) {
+                System.out.println("Too low! Guesses remaining: " + guessRemaining);
+            } else {
+                System.out.println("Too high! Guesses remaining: " + guessRemaining);
+            }
+        } else {
+            System.out.println("The game is already over.");
+        }
+    }
+    public void printCorrectNumber() {
+        if (gameOver) {
+            System.out.println("The correct number was: " + targetNumber);
+        } else {
+            System.out.println("The game is not over yet.");
+        }
+    }
+    public static void main(String[] args) {
+        Guess_game game = new Guess_game();
+        Scanner scanner = new Scanner(System.in);
+        while (!game.isGameOver()) {
+            System.out.print("Enter your guess: ");
+            int guess = scanner.nextInt();
+            game.makeGuess(guess);
+        }
+        scanner.close();
+        game.printCorrectNumber();
+    }
 }
