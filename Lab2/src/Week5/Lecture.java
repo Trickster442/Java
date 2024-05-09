@@ -41,9 +41,16 @@ public class Lecture {
 		System.out.println(foods.get(0));  //indexing
 		System.out.println(foods.size());
 		System.out.println(foods.isEmpty());
-		System.out.println(foods.set(2, "ice-cream"));
-		foods.add(3,"ice-cream");
+		System.out.println(foods.set(2, "ice-cream"));  //changes value at given index
+		foods.add(3,"ice-cream");  //adds new item at given index
 		System.out.println(foods.remove("broccoli"));
 		System.out.println(foods.toString());
+		
+		
+		//Map is a another word for dictionary
+		// It contains a pair of "keys" and "values"
+		// Keys must of the same type and values must of same type
+		// For example : Map<String, Integer> 
+		// means map from string to integer
 	}
 }
