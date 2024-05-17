@@ -1,7 +1,6 @@
 package Week4;
 public class Tamagotchi {
 	private int happiness;private int hungriness;private int cleanness;private int tiredness;
-	
 	public Tamagotchi() {
 		this.happiness = 5;
 		this.hungriness = 5;

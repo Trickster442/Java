@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.* ;
 
 public class Lecture {
+	
+	static String[] days = new String[] {"Monday","Tuesday","wednesday","Thursday","Friday","Saturday","Sunday"};
 	public static void main (String [] args) {
 		// primitive way to create array
 		// first declare what type of data it will hold
@@ -52,5 +54,14 @@ public class Lecture {
 		// Keys must of the same type and values must of same type
 		// For example : Map<String, Integer> 
 		// means map from string to integer
+		mapToUpperCase(days);
+		
+		
+	}
+	public static void mapToUpperCase(String[] array) {
+		for(int i=0; i<array.length; i++) {
+			array[i] = array[i].toUpperCase();
+		}
+		System.out.println(Arrays.toString(array));
 	}
 }

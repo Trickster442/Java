@@ -1,20 +1,13 @@
 package Week3;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
-
 public class QueryString{
     private String data;
 
     public QueryString(String data) {
         this.data = data;
     }
-
-    /*
-     * Returns the value associated with a parameter in the query string,
-     * or null if the parameter does not exist.
-     */
     public String getParameter(String name) {
         String[] params = data.split("&");
         for (String param : params) {
@@ -25,10 +18,6 @@ public class QueryString{
         }
         return null;
     }
-
-    /*
-     * Determines whether a parameter exists in the query string.
-     */
     public boolean hasParameter(String name) {
         String[] params = data.split("&");
         for (String param : params) {
@@ -39,20 +28,10 @@ public class QueryString{
         }
         return false;
     }
-
-    /*
-     * Returns the character offset of the start of a parameter's name.
-     * If the parameter does not exist, -1 is returned.
-     */
     public int getParameterOffset(String name) {
         int index = data.indexOf(name + "=");
         return index == -1 ? -1 : index;
     }
-
-    /*
-     * Decodes a URL-encoded string.
-     * See https://en.wikipedia.org/wiki/Percent-encoding
-     */
     public static String decode(String s) {
         try {
             return URLDecoder.decode(s, StandardCharsets.UTF_8.toString());
@@ -62,7 +41,6 @@ public class QueryString{
             return null;
         }
     }
-
     public static void main(String[] args) {
         // Example usage
         String queryString = "name=Alice%19&age=19&country=UK";
