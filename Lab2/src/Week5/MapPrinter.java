@@ -21,8 +21,6 @@ public class MapPrinter {
 //            System.out.println("Name: " + entry.getKey() + ", Phone no: " + entry.getValue());
 //        }
 //    }
-	
-	
 	public static void printPairs(Map<String, String> map) {
 		for  (String keyss : map.keySet()) {
 			String key_value = map.get(keyss);
