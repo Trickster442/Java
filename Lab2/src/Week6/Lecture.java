@@ -8,11 +8,25 @@ public class Lecture {
 //		int[] numArray = new int[4];
 //		numArray[7] = 9 ;         //since array of length 4 is declared it will throw arrayoutofindex exception
 		
-		
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("My");
-		list.add("Name");
-		System.out.println(list.get(2));
+//		
+//		ArrayList<String> list = new ArrayList<String>();
+//		list.add("My");
+//		list.add("Name");
+//		System.out.println(list.get(2)); //indexoutofBound exception
+		double[] arr = new double[0];
+		System.out.println(Lecture.mean(arr));
 	}
+	public static double mean(double[] numbers) {
+	    if(numbers.length == 0) {
+	        throw new IllegalArgumentException("Empty array");
+	    }
+	    
+	    double total = 0;
+	    for(double x : numbers) {
+	        total += x;
+	    }
+	    return total / numbers.length;
+	}
+	
 
 }
