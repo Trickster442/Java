@@ -1,5 +1,6 @@
 package Week5;
 import java.util.Map;
+import java.util.Map.Entry;
 
 
 public class MapPrinter {
@@ -16,16 +17,16 @@ public class MapPrinter {
 	}
 	
 	
-//	public static void printPairs(Map<String, String> map) {
-//        for (Entry<String, String> entry : map.entrySet()) {
-//            System.out.println("Name: " + entry.getKey() + ", Phone no: " + entry.getValue());
-//        }
-//    }
 	public static void printPairs(Map<String, String> map) {
-		for  (String keyss : map.keySet()) {
-			String key_value = map.get(keyss);
-			System.out.println("Key: " + keyss + " Values:" + key_value);
-			
-		}
-	}
+        for (Entry<String, String> entry : map.entrySet()) {
+            System.out.println("Name: " + entry.getKey() + ", Phone no: " + entry.getValue());
+        }
+    }
+//	public static void printPairs(Map<String, String> map) {
+//		for  (String keyss : map.keySet()) {
+//			String key_value = map.get(keyss);
+//			System.out.println("Key: " + keyss + " Values:" + key_value);
+//			
+//		}
+//	}
 }
