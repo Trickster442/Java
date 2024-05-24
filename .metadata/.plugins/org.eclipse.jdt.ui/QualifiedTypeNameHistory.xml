@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="AttendanceRegister"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Week5.MapPrinter"/>
+    <fullyQualifiedTypeName name="Week5.ScrabbleScorer"/>
 </qualifiedTypeNameHistroy>

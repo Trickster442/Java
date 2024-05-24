@@ -32,6 +32,5 @@ public class ScrabbleScorer {
 	}
 	
 	public static void main(String[] args) {
-		
 	}
 }

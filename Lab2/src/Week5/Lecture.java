@@ -57,6 +57,12 @@ public class Lecture {
 		mapToUpperCase(days);
 		
 		
+		// when using collection type you first get where are you using it from
+		// for example i want to create hashmap object then
+		// first implement from Map and then data type and then
+		// create obj with new
+		// for what like HashMap or HashTree
+		
 	}
 	public static void mapToUpperCase(String[] array) {
 		for(int i=0; i<array.length; i++) {
