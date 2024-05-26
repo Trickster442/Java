@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.* ;
 
 public class Lecture {
+	public static List<String> a1 = new ArrayList<>();
+	public static void arr1() {
+		a1.add("hello");
+		a1.add("hello2");
+		a1.add("hello3");
+		a1.add("hello4");
+		
+	}
 	
 	static String[] days = new String[] {"Monday","Tuesday","wednesday","Thursday","Friday","Saturday","Sunday"};
 	public static void main (String [] args) {
@@ -63,7 +71,15 @@ public class Lecture {
 		// create obj with new
 		// for what like HashMap or HashTree
 		
+		
+		Lecture l1 = new Lecture();
+		l1.arr1();
+		System.out.println(a1);
+		
 	}
+	
+	
+	
 	public static void mapToUpperCase(String[] array) {
 		for(int i=0; i<array.length; i++) {
 			array[i] = array[i].toUpperCase();

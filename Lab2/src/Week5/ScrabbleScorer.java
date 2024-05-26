@@ -11,6 +11,7 @@ public class ScrabbleScorer {
 		}
 	}
 	
+	
 	public int scoreForTile(char tile) {
 		tile = Character.toUpperCase(tile);
 		if (!Character.isLetter(tile)) {
