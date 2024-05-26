@@ -74,8 +74,7 @@ public class Lecture {
 		
 		Lecture l1 = new Lecture();
 		l1.arr1();
-		System.out.println(a1);
-		
+		System.out.println(a1);	
 	}
 	
 	
