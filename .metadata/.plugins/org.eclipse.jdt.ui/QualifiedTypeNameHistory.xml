@@ -15,9 +15,11 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Week5.MapPrinter"/>
     <fullyQualifiedTypeName name="Week5.ScrabbleScorer"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
     <fullyQualifiedTypeName name="Week5.Lecture"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Flight"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
