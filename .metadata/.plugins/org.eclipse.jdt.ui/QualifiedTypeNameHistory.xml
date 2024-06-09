@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.Other"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -11,18 +10,28 @@
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="AttendanceRegister"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Week5.MapPrinter"/>
     <fullyQualifiedTypeName name="Week5.ScrabbleScorer"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
     <fullyQualifiedTypeName name="Week5.Lecture"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Flight"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="bcu.changeme.phonebook.model.NotPresentException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.FlightBookingSystem"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.ShowFlights"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Flight"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.ShowCustomer"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Customer"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Booking"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.main.FlightBookingSystemException"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.DeleteFlight"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.DeleteCustomer"/>
 </qualifiedTypeNameHistroy>
