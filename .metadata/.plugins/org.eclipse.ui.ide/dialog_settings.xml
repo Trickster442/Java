@@ -13,6 +13,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Dell 15\Downloads\Calculator\Calculator"/>
+			<item value="D:\Dell 15\Downloads\bank-account\bank-account"/>
 			<item value="D:\Dell 15\Downloads\expression-tree\expression-tree"/>
 			<item value="D:\Dell 15\Downloads\expression-tree\expression-tree\src\bcu\changeme"/>
 			<item value="D:\Dell 15\Downloads\expression-tree"/>
