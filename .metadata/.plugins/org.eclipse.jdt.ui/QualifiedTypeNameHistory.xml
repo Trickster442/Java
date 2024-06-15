@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Customer"/>
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.model.Booking"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.main.FlightBookingSystemException"/>
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.DeleteCustomer"/>
     <fullyQualifiedTypeName name="java.awt.Container"/>
     <fullyQualifiedTypeName name="javax.swing.JMenu"/>
@@ -40,4 +39,6 @@
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.DeleteFlight"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.main.FlightBookingSystemException"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.AddBooking"/>
 </qualifiedTypeNameHistroy>
