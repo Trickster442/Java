@@ -41,4 +41,7 @@
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.DeleteFlight"/>
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.main.FlightBookingSystemException"/>
     <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.AddBooking"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.commands.AddCustomer"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.gui.AddCustomerWindow"/>
+    <fullyQualifiedTypeName name="bcu.cmp5332.bookingsystem.gui.DeleteCustomerWindow"/>
 </qualifiedTypeNameHistroy>
